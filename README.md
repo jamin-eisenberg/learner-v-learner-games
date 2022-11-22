@@ -6,6 +6,8 @@ Professor Rory Smead
 
 11/4/2019
 
+## Sample Window (with Prisoner's Dilemma matrix)
+![image](https://user-images.githubusercontent.com/117237268/203197086-73e55940-9408-4979-ad25-b46b6c7ce219.png)
 
 ## Roth-Erev Reinforcement Learning Explanation
 This type of learning is computationally very simple. You can imagine a bag filled with marbles that represent different strategies. The initial weights you give determine how many marbles of that type are in the bag.
@@ -22,7 +24,7 @@ The error rate just means that the learner picks a random strategy from an even 
 
 ## Use Instructions
 To run this project you will need Java, unless you are running 64-bit Windows.
-Navigate to the folder that corresponds to your operating system and run the executable file. A window should open.
+Navigate to the folder that corresponds to your operating system, unzip it, and run the executable file. A window should open.
 
 Restrictions to input are listed clearly in the paragraphs above input.
 
