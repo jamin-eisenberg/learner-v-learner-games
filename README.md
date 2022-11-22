@@ -1,21 +1,26 @@
-README for LearnerVLearnerGames project
-Created by Jamin Eisenberg for PHIL 2001 taught by Rory Smead
+# LearnerVLearnerGames project
+
+Created by Jamin Eisenberg for PHIL 2001
+
+Professor Rory Smead
+
 11/4/2019
 
 
-Roth-Erev Reinforcement Learning Explanation:
+## Roth-Erev Reinforcement Learning Explanation
 This type of learning is computationally very simple. You can imagine a bag filled with marbles that represent different strategies. The initial weights you give determine how many marbles of that type are in the bag.
 
 A random marble is drawn out of the bag, and that learner plays the marble's strategy against the other player. The payoff found at the intersection of player 1's pick and player 2's pick determines how many additional marbles are put into the bag.
 
 Therefore, strategies that give higher payoffs generally get more of their marbles into the bag, which gives them a higher probability of being chosen.
 
+### Additional parameters
 The two additions to this are the recency index and error rate. Recency represents memory. In practice, the constant you choose is multiplied by all past weights as the rounds go on.
 
 The error rate just means that the learner picks a random strategy from an even distribution a certain percent of the time, rather than making an informed decision with the skewed distribution in the bag.
 
 
-Use:
+## Use Instructions
 To run this project you will need Java, unless you are running 64-bit Windows.
 Navigate to the folder that corresponds to your operating system and run the executable file. A window should open.
 
@@ -32,7 +37,7 @@ You should also input an integer into each of the boxes label games per simulati
 When you have input all that you need, click the big red run game button. Results should be displayed as long as you did not make any errors.
 
 
-Output:
+## Output Interpretation
 The graph represents the probability of the learners playing a certain strategy, given at the top right corner of the graph. You can view different strategies by clicking the blue buttons above the graph. The probability is averaged among all of the players across simulations, as stated above. With the right parameters, hopefully you will see that players converge on a certain strategy.
 
 The two results on the right might not add to 100, even though they're theoretically supposed to, because of rounding errors.
